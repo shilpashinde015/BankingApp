@@ -17,8 +17,8 @@ describe('Multiform e2e automation for ManagerLogin', function() {
 		 it('Add Customer', function() {
 			 var add_cust =  element(by.xpath('html/body/div[3]/div/div[2]/div/div[1]/button[1]')) 
 			 add_cust.click();
-			 element(by.model('fName')).sendKeys('tech');
-			 element(by.model('lName')).sendKeys('arch');
+			 element(by.model('fName')).sendKeys('techi');
+			 element(by.model('lName')).sendKeys('archi');
 			 element(by.model('postCd')).sendKeys('30000');
 			 element(by.className('btn btn-default')).click();
 			 
